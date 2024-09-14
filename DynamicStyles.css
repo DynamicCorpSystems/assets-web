@@ -1,0 +1,496 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,s500;1,500&display=swap');
+
+
+:root{
+    --dynamic-darkGreen: #0CA789;
+
+    --dynamic-darkGreen1:#1a9175;
+
+    --dynamic-darkGreenBTN: #0A7D67;
+    --dynamic-darkGreenBTNHover: #0c6857;
+    --dynamic-darkGreenBTNSel: #13836e;
+    --Rubik-Font: "Rubik",
+
+    --dynamic-darkGreenBorder:  2px #0CA789 solid;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.msge-fa{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    color: red;
+    align-items: center;
+    justify-content: left;
+}
+
+.rubik-400 {
+    font-family: "Rubik";
+    font-optical-sizing: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rubik-400it {
+    font-family: "Rubik";
+    font-optical-sizing: none;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+.rubik-300 {
+    font-family: "Rubik";
+    font-optical-sizing:none;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0;
+
+    font-family: "Rubik";
+    flex-direction: column;
+
+    background-color: #e9e8e8;
+}
+
+.dynamic-header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    background-color: #0CA789;
+    align-items: center;
+    font-size: 24px;
+    color: rgb(248, 245, 245);
+    justify-content: space-between;
+    
+}
+.title-page-cnt{
+    width: auto;
+    height: 60%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25%;
+    font-style: italic;
+}
+.btn-ea-warp{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formstyle-dynamic-frontpage{
+    width: 65%;
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-paragraph-DIVDYNAMIC{
+    width: 100%;
+    height: auto;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.dynamic-button{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik";
+    user-select: none;
+    cursor: pointer;
+}
+
+.form-format{
+    width: 100%;
+    height: 725px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-dybtn{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.bigxII-dybtn{
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+}
+
+.dg-btn{
+    color: white;
+    background-color: var(--dynamic-darkGreenBTN);
+}
+
+.dg-btn:hover{
+    background-color: var(--dynamic-darkGreenBTNHover);
+    cursor: pointer;
+
+}
+
+.dg-btn:active {
+    background-color: var(--dynamic-darkGreenBTNSel);
+}
+
+.dynamicfloating-menu{
+    width: 212.5px;
+
+    position: absolute;
+    top: 90%;
+    right: 42%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+}
+
+.otrhew-adpos{
+    top: 90%;
+    right: 20%;
+}
+
+.floatingmenu-btn, .fmcu-mod, .dynamicfloating-menu button, .dynamicfloating-menu a{
+    width: 80%;
+    height: 45px;
+    border-radius: 0px;
+    padding:  5px 10%;
+    color: black;
+    text-decoration: none;
+    font-size: 60%;
+    background-color: #f0f4f8;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.floatingmenu-btn:hover,  .dynamicfloating-menu button:hover, .dynamicfloating-menu a:hover{
+    background-color: #e5e9ec;
+    cursor: pointer;
+}
+.floatingmenu-btn:active, .dynamicfloating-menu button:active, .dynamicfloating-menu a:active{
+    background-color: #fafcfd;
+    cursor: pointer;
+}
+.dynamic-normal-fieldtext{
+    width: 70%;
+    height: 40px;
+    padding: 0.5%;
+
+    outline: none;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin: 0.2rem;
+    border-bottom: 2px #0CA789 solid;
+}
+
+.dynamic-normal-fieldtext:focus{
+    background-color: #d6d6d6;
+}
+
+.footer-options-account-frontpage{
+    width: 70%;
+    height: auto;
+    padding: 2.5% 15%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-button{
+    width: 175px;
+    height: 65px;
+    font-family: "Rubik";
+    padding: 10px;
+    color: blue;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.grs-fsize{
+    width: 125px;
+    padding: 10px;
+    height: 65px;
+    font-size: 18px;
+}
+.grs-f3ize{
+    width: 125px;
+    padding: 5px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.lable-wrapper{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dynamicpage-front{
+    width: 100%;
+    height: 800px;
+    display: flex;
+
+}
+.page-mainnav{
+    width: 5%;
+    height: 100%;
+    background-color: var(--dynamic-darkGreen1);
+    display: flex;
+    flex-direction: column;
+}
+
+.dynamic-customlink{
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrpper-dsa-{
+    width: 100%;
+    margin-top: 0.2rem;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-footerDynamic{
+    width: 96%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: var(--dynamic-darkGreen);
+}
+
+.app-dyna-front{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.settings-navdynamicapp{
+    width: 10%;
+    
+    height: 100%;
+
+    background-color: #d3d3d3;
+}
+
+.grayerbutton{
+    background-color: #d3d3d3;
+}
+
+.grayerbutton:hover{
+    background-color: #c2c2c2;
+    cursor: pointer;
+    
+}
+
+.redbutton{
+    background-color: red;
+    cursor: pointer;
+}
+
+.redbutton:hover{
+    background-color: rgb(233, 31, 31);
+    cursor: pointer;
+}
+
+.redbutton:active{
+    background-color: rgb(255, 44, 44);
+    cursor: pointer;
+}
+
+.widh100thper{
+    width: 100%;
+
+}
+.fontsize14px{
+    font-size: 14px;
+}
+.widht95hper{
+    width: 95%;
+}
+.widht90hper{
+    width: 90%;
+}
+
+.widht80hper{
+    width: 80%;
+}
+
+.widht75hper{
+    width: 75%;
+}
+
+.t-wrtp-in-dynamicpage{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-inner-profile-dynamicpage{
+    width: 80%;
+    height: 80%;
+    padding: 2.5%;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    overflow-y: auto;
+    scrollbar-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+.profile-card-main-dynamicpage{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    border-radius: 20px;
+    background-color: #d3d3d3;
+}
+.de-wrp-img{
+    width: 15%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card-main-dynamicpage:hover{
+    cursor: pointer;
+    background-color: #dfdfdf;
+}
+
+.light-bluebtn{
+    background-color: #1bdab7;
+    color: white;
+
+}
+
+.light-bluebtn:hover{
+    background-color: #12b99b;}
+
+.light-bluebtn:active{
+    background-color: #18e7c1;
+}
+
+.darkgrayerbutton{
+    background-color: #626468;
+}
+    
+.darkgrayerbutton:hover{
+    background-color: #424346;
+}
+     
+
+/*Workflow*/
+
+.gray-bg{
+    background-color: #dee0e2;
+}
+
+.workflow-header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #c7cbce;
+}
+
+.cont-fwrname{
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+
+
+.bera-btn-wrappper{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.dynamic-popframe{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #6d6f74;
+}
+/*.popframe-header{
+
+}*/
+
+main.contianea-fa{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
